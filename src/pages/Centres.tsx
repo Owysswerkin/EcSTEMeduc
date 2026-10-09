@@ -7,6 +7,9 @@ import { useTranslation } from 'react-i18next';
 import edventureLogo from '@/assets/edventure-logo.png';
 import lcentralLogo from '@/assets/lcentral-logo.png';
 import chickyOliveLogo from '@/assets/chicky-olive-logo.png';
+import sparkLogoAsset from '@/assets/spark-education-logo.png.asset.json';
+
+const sparkLogo = sparkLogoAsset.url;
 
 const Centres = () => {
   const { t } = useTranslation();
@@ -32,6 +35,13 @@ const Centres = () => {
       address: '52 MEDWAY DRIVE Singapore 556552',
       color: 'from-lavender/20 to-primary/20',
       logo: chickyOliveLogo
+    },
+    {
+      id: 4,
+      name: 'Spark Education',
+      address: '98 Punggol Way #01-221/222 Punggol Coast Mall Singapore 829857',
+      color: 'from-coral/20 to-sunshine/20',
+      logo: sparkLogo
     }
   ];
 
@@ -87,7 +97,7 @@ const Centres = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {centres.map((centre) => (
               <Card 
                 key={centre.id} 

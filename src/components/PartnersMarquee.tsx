@@ -2,11 +2,15 @@ import React from 'react';
 import edventureLogo from '@/assets/edventure-logo.png';
 import lcentralLogo from '@/assets/lcentral-logo.png';
 import chickyOliveLogo from '@/assets/chicky-olive-logo.png';
+import sparkLogoAsset from '@/assets/spark-education-logo.png.asset.json';
+
+const sparkLogo = sparkLogoAsset.url;
 
 const partners = [
 { name: 'Edventure Learning Academy', logo: edventureLogo },
 { name: 'LCENTRAL English', logo: lcentralLogo },
-{ name: 'Chicky & Olive International Preschool', logo: chickyOliveLogo }];
+{ name: 'Chicky & Olive International Preschool', logo: chickyOliveLogo },
+{ name: 'Spark Education', logo: sparkLogo }];
 
 
 // Duplicate for seamless loop
