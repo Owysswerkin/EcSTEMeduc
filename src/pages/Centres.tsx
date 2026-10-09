@@ -30,7 +30,7 @@ const Centres = () => {
     {
       id: 3,
       name: 'Chicky&Olive International Preschool',
-      address: '52 MEDWAY DRIVE Singapore 556552',
+      address: '19 Lichfield Road Singapore 556839',
       color: 'from-lavender/20 to-primary/20',
       logo: chickyOliveLogo
     },
