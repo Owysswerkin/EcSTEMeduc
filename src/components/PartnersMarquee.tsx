@@ -28,11 +28,11 @@ const PartnersMarquee = () => {
       <div className="relative w-full">
         <div className="flex items-center gap-16 animate-marquee w-max">
           {allPartners.map((partner, i) =>
-          <div key={i} className="flex-shrink-0 flex items-center justify-center h-20 w-40">
+          <div key={i} className={`flex-shrink-0 flex items-center justify-center ${partner.wide ? 'h-28 w-52' : 'h-20 w-40'}`}>
               <img
               src={partner.logo}
               alt={partner.name}
-              className="max-h-16 max-w-[140px] object-contain" />
+              className={partner.wide ? 'max-h-24 max-w-[190px] object-contain' : 'max-h-16 max-w-[140px] object-contain'} />
 
             </div>
           )}
