@@ -8,7 +8,7 @@ const partners = [
 { name: 'Edventure Learning Academy', logo: edventureLogo },
 { name: 'LCENTRAL English', logo: lcentralLogo },
 { name: 'Chicky & Olive International Preschool', logo: chickyOliveLogo },
-{ name: 'Spark Education', logo: sparkLogo }];
+{ name: 'Spark Education', logo: sparkLogo, wide: true }];
 
 
 // Duplicate for seamless loop
