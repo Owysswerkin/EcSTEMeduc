@@ -7,9 +7,7 @@ import { useTranslation } from 'react-i18next';
 import edventureLogo from '@/assets/edventure-logo.png';
 import lcentralLogo from '@/assets/lcentral-logo.png';
 import chickyOliveLogo from '@/assets/chicky-olive-logo.png';
-import sparkLogoAsset from '@/assets/spark-education-logo.png.asset.json';
-
-const sparkLogo = sparkLogoAsset.url;
+import sparkLogo from '@/assets/spark-education-logo.png';
 
 const Centres = () => {
   const { t } = useTranslation();
